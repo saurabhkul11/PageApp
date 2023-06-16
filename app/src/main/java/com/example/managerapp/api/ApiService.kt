@@ -10,7 +10,6 @@ interface ApiService {
 
     @GET("products")
     suspend fun getData():Response<Product>
-
     @GET("quotes")
     suspend fun getpageData(@Query("page_no")page:Int):PageData
 

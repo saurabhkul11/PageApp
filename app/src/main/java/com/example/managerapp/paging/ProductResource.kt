@@ -30,5 +30,4 @@ class ProductResource(val apiService: ApiService):PagingSource<Int, Results>() {
         }
     }
 
-
 }
